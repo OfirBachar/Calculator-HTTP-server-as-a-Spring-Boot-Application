@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout>
+                <Pattern>%d{dd-MM-yyyy HH:mm:ss.SSS} %-5p : %msg | request #%X{REQUEST_COUNTER}%n</Pattern>
+            </PatternLayout>
+        </Console>
+
+        <File name="independent" fileName="logs/independent.log">
+            <PatternLayout>
+                <Pattern>%d{dd-MM-yyyy HH:mm:ss.SSS} %-5p : %msg | request #%X{REQUEST_COUNTER}%n</Pattern>
+            </PatternLayout>
+        </File>
+
+        <File name="requests" fileName="logs/requests.log">
+            <PatternLayout>
+                <Pattern>%d{dd-MM-yyyy HH:mm:ss.SSS} %-5p : %msg | request #%X{REQUEST_COUNTER}%n</Pattern>
+            </PatternLayout>
+        </File>
+
+        <File name="stack" fileName="logs/stack.log">
+            <PatternLayout>
+                <Pattern>%d{dd-MM-yyyy HH:mm:ss.SSS} %-5p : %msg | request #%X{REQUEST_COUNTER}%n</Pattern>
+            </PatternLayout>
+        </File>
+
+    </Appenders>
+
+    <Loggers>
+        <logger name="request-logger" level="info">
+            <AppenderRef ref="requests"/>
+            <AppenderRef ref="Console"/>
+        </logger>
+
+        <logger name="stack-logger" level="info">
+            <AppenderRef ref="stack"/>
+        </logger>
+
+        <logger name="independent-logger" level="debug">
+            <AppenderRef ref="independent"/>
+        </logger>
+
+        <Root level="FATAL">
+        </Root>
+
+    </Loggers>
+
+</Configuration>
