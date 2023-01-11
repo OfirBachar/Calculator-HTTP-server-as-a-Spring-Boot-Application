@@ -1,0 +1,17 @@
+C:\Users\ofir4\source\repos\kaplat\Ex5 Docker\Server\src\main\java\com\example\server\Exceptions\NotEnoughArgsException.java
+C:\Users\ofir4\source\repos\kaplat\Ex5 Docker\Server\src\main\java\com\example\server\Exceptions\UnknownOperationException.java
+C:\Users\ofir4\source\repos\kaplat\Ex5 Docker\Server\src\main\java\com\example\server\CalculatorController.java
+C:\Users\ofir4\source\repos\kaplat\Ex5 Docker\Server\src\main\java\com\example\server\Exceptions\NegativeException.java
+C:\Users\ofir4\source\repos\kaplat\Ex5 Docker\Server\src\main\java\com\example\server\RequestsCounter.java
+C:\Users\ofir4\source\repos\kaplat\Ex5 Docker\Server\src\main\java\com\example\server\Validations.java
+C:\Users\ofir4\source\repos\kaplat\Ex5 Docker\Server\src\main\java\com\example\server\Calculator.java
+C:\Users\ofir4\source\repos\kaplat\Ex5 Docker\Server\src\main\java\com\example\server\Exceptions\TooMuchArgsException.java
+C:\Users\ofir4\source\repos\kaplat\Ex5 Docker\Server\src\main\java\com\example\server\Exceptions\DivisionException.java
+C:\Users\ofir4\source\repos\kaplat\Ex5 Docker\Server\src\main\java\com\example\server\ControllerExceptionHandler.java
+C:\Users\ofir4\source\repos\kaplat\Ex5 Docker\Server\src\main\java\com\example\server\models\StackArgsModel.java
+C:\Users\ofir4\source\repos\kaplat\Ex5 Docker\Server\src\main\java\com\example\server\models\CalculateOperationModel.java
+C:\Users\ofir4\source\repos\kaplat\Ex5 Docker\Server\src\main\java\com\example\server\models\ResultModel.java
+C:\Users\ofir4\source\repos\kaplat\Ex5 Docker\Server\src\main\java\com\example\server\models\OperationModel.java
+C:\Users\ofir4\source\repos\kaplat\Ex5 Docker\Server\src\main\java\com\example\server\models\ErrorResultModel.java
+C:\Users\ofir4\source\repos\kaplat\Ex5 Docker\Server\src\main\java\com\example\server\ServerApplication.java
+C:\Users\ofir4\source\repos\kaplat\Ex5 Docker\Server\src\main\java\com\example\server\calculatorAspect.java

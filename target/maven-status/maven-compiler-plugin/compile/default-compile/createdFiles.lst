@@ -1,0 +1,17 @@
+com\example\server\Exceptions\UnknownOperationException.class
+com\example\server\CalculatorController.class
+com\example\server\Exceptions\NegativeException.class
+com\example\server\models\ErrorResultModel.class
+com\example\server\Calculator.class
+com\example\server\RequestsCounter.class
+com\example\server\Exceptions\NotEnoughArgsException.class
+com\example\server\ServerApplication.class
+com\example\server\Validations.class
+com\example\server\calculatorAspect.class
+com\example\server\ControllerExceptionHandler.class
+com\example\server\Exceptions\DivisionException.class
+com\example\server\models\OperationModel.class
+com\example\server\Exceptions\TooMuchArgsException.class
+com\example\server\models\CalculateOperationModel.class
+com\example\server\models\ResultModel.class
+com\example\server\models\StackArgsModel.class
